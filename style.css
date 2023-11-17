@@ -2,7 +2,23 @@
 body{
     text-align: center;
 }
+section{
+    background-color: green;
+}
+.red {
+    background-color: red;
+    text-align: center;
+    width: 80%;
+}
 
+
+/* This is a single-line comment */
+svg {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
 
 
 /* This is a single-line comment */
@@ -15,9 +31,21 @@ body{
 
 
 
-/* This is a single-line comment */
+/* This is a footer comment */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
+li {
+    float: left;
+}
 
+li a {
+   display: block;
+   color: gray;
+   padding: 16px;
 
-
-/* This is a single-line comment */
+}
